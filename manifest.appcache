@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Thu Mar 07 2013 17:20:19 GMT-0500 (EST)
+# Time: Thu Mar 07 2013 17:25:19 GMT-0500 (EST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -21,7 +21,6 @@ CACHE MANIFEST
 #  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
 
 CACHE:
-/images/0d0f3b34.main.png
 /scripts/6650f7c0.main.js
 http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
 http://localhost:3501/images/fd7d9a70.logo.png
@@ -30,6 +29,7 @@ http://localhost:3501/images/glyphicons-halflings.png?1361307576
 http://use.typekit.net/c/b131dc/minion-pro:i4:i7:n4:n7,proxima-nova:i4:i7:n4:n7.XvF:F:2,XvD:F:2,XvJ:F:2,XvC:F:2,W0W:F:2,W0Z:F:2,W0V:F:2,W0Y:F:2/d?3bb2a6e53c9684ffdc9a9af3135b2a62c9580c6c0a51a7a4dd7b8a278a2bbbafab3833d56270f9b83c60ccd331a8fd4b7d3712346d984b99949cf2
 http://use.typekit.net/gpm7jkf.js
 http://www.google-analytics.com/ga.js
+images/0d0f3b34.main.png
 images/35e35503.books-media.png
 images/46334d8d.my-lib.png
 images/4aaa3c5a.tags.png
