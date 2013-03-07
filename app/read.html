@@ -20,7 +20,7 @@
     </head>
     <body>
 	<header>
-		<div class="navbar read-page">
+		<div class="navbar navbar-static-top read-page">
 		  <div class="navbar-inner">
 		    <div class="container">
 		 
@@ -31,13 +31,13 @@
 		      </a>
 		 
 		      <!-- Be sure to leave the brand out there if you want it shown -->
-		      <a class="brand" href="#">Enoch Pratt Free Library</a>
+		      <a class="brand" href="/">Enoch Pratt Free Library</a>
 		 
 		      <!-- Everything you want hidden at 940px or less, place within here -->
 		      <div class="nav-collapse collapse">
 		        <ul class="nav pull-right">
-		        	<li><a href="#">Books & Media</a></li>
-		        	<li><a href="#">My Library</a></li>
+		        	<li><a href="books-media.html">Books & Media</a></li>
+		        	<li><a href="my-library.html">My Library</a></li>
 		        	<li><a href="#">Services</a></li>
 		        	<li><a href="#">Sign In</a></li>
 		        </ul>
@@ -48,14 +48,20 @@
 		</div>
 	</header>
 	
-	<div class="read-content">
+	<div class="page-header">
 		<div class="container">
-			<div class="row">
-				<div class="span3">
-					<h4>Best American Essays 2007</h4>
-					<h4>Various Authors</h4>
-					<h4>68% Complete</h4>
-					<div class="btn-group">
+			<div class="row-fluid">
+				<div class="span2">
+				</div>
+				<div class="span2">
+					<img src="/images/internetsucks.png" />
+				</div>
+				<div class="span6 article-info">
+					<h2>Best American Essays 2007</h2>
+					<h3>Various Authors</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolor dolorem exercitationem quidem non dolore tenetur vel. Ex reprehenderit iusto ullam consectetur quisquam suscipit saepe omnis dolores consequatur perspiciatis a!</p>
+					<div class="read-progress" data-progress="68"><div class="bar">68%</div></div>
+					<div class="btn-group jump-to">
 					  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
 					    Jump To
 					    <span class="caret"></span>
@@ -75,13 +81,20 @@
 					    <li><a href="">Itaque provident modi?</a></li>
 					  </ul>
 					</div>
-					
-					<div class="tools">
-						<span class="label label-important"><a href="#">Bookmark</a></span>
-					</div>
 				</div>
+				</div>
+				<div class="span2">
+				</div>
+			</div> <!-- /.row-fluid -->
+			
+		</div>
+	</div>
+	
+	<div class="read-content">
+		<div class="container">
+			<div class="row">
 				
-				<div class="span9 content">
+				<div class="span8 offset2 content">
 					<h2>Chapter Title</h2>
 					<h3>Chapter Subhead</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus corporis perferendis mollitia nihil libero reiciendis dignissimos quo fugiat. Tenetur nulla facere corporis accusamus magnam mollitia dicta excepturi! Dolorum aliquid explicabo?</p>
@@ -110,7 +123,7 @@
 					<p>Sed neque quam iure expedita aspernatur rerum unde cupiditate dolorem pariatur repellat fuga voluptatibus ipsam totam sapiente modi itaque molestiae veniam nulla exercitationem est? Maxime voluptatum nisi vitae explicabo vero.</p>
 					<p>Libero deleniti esse eius quam autem doloribus labore repellendus ipsum repellat rem officiis ea dolorem dolorum. Tempora maiores maxime. Dolore assumenda enim voluptate qui atque animi. Iure saepe dolore in.</p>
 					
-					<div class="navigation">
+					<div class="section-navigation">
 						<ul class="pager">
 						  <li class="previous">
 						    <a href="#">&larr; Previous Section</a>
@@ -148,10 +161,9 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
-        
+        <script src="/scripts/main.js"></script>
         
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

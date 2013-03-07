@@ -31,13 +31,13 @@
 		      </a>
 		 
 		      <!-- Be sure to leave the brand out there if you want it shown -->
-		      <a class="brand" href="#">Enoch Pratt Free Library</a>
+		      <a class="brand" href="/">Enoch Pratt Free Library</a>
 		 
 		      <!-- Everything you want hidden at 940px or less, place within here -->
 		      <div class="nav-collapse collapse">
 		        <ul class="nav pull-right">
-		        	<li><a href="#">Books & Media</a></li>
-		        	<li><a href="#">My Library</a></li>
+		        	<li><a href="books-media.html">Books & Media</a></li>
+		        	<li><a href="my-library.html">My Library</a></li>
 		        	<li><a href="#">Services</a></li>
 		        	<li><a href="#">Sign In</a></li>
 		        </ul>
@@ -52,14 +52,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="span12">
-					<h2>Best American Essays 2007</h2>
+					<h2>Best American Essays 2012</h2>
 				</div>
 			</div>
 			
-			<div class="row">
-				<div class="span3">
-					<img src="http://lorempixel.com/300/450" />
-					<a href="#" class="btn btn-success">Read Online</a>
+			<div class="row single-book">
+				<div class="span3 big-book">
+					<img src="images/internetsucks.png" />
+					<a href="read.html" class="btn btn-success">Read Online</a>
 					<a href="#" class="btn btn-primary">Reserve</a>
 				</div>
 				
@@ -72,9 +72,6 @@
 						<div class="book-descrip span5">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta in placeat repudiandae facere voluptatum inventore esse porro facilis magni repellat totam possimus omnis modi quod optio. Itaque voluptas doloribus ipsa!</p>
 							<p>Ea nam eaque maiores aperiam ducimus fugiat unde optio provident blanditiis placeat nesciunt facere dolorum odio reiciendis impedit dicta officia sed et iusto sapiente quas cumque nemo quidem minus laboriosam!</p>
-							<p>Laboriosam laudantium inventore quibusdam velit minima at labore impedit eaque soluta repellat suscipit ut architecto voluptatibus est reiciendis eos quos ex magni quas magnam alias! Beatae veniam eum accusantium possimus.</p>
-							<p>Non eveniet omnis nisi porro cumque officiis dolor tenetur assumenda minima excepturi. Officiis at nemo qui consequatur delectus repudiandae cum ipsam reiciendis cupiditate eligendi sit corrupti eum hic quo obcaecati?</p>
-							
 						</div>
 						
 						<div class="tags span4">
@@ -95,25 +92,64 @@
 					</div>
 				</div> <!-- /.span8 -->
 			</div> <!-- /.row -->
-			<div class="row">
+			
+			<hr>
+			
+			<div class="row-fluid">
 				<div class="span12">
 					<h2>Related Titles</h2>
 				</div>
-				<div class="related">
-					<div class="span3">
-						<img src="http://lorempixel.com/200/300" />
-					</div>
-					<div class="span3">
-						<img src="http://lorempixel.com/200/300" />
-					</div>
-					<div class="span3">
-						<img src="http://lorempixel.com/200/300" />
-					</div>
-					<div class="span3">
-						<img src="http://lorempixel.com/200/300" />
-					</div>
+			</div>
+			<div class="row-fluid">
+				<div class="browse-book span2">
+					<img src="images/internetsucks.png" alt="" />
+					<span class="browse-info">
+						<h3>Book Title</h3>
+						<h3>Book Author</h3>
+					</span>
+					<span class="browse-actions"><a href="" class="btn btn-danger">More Info</a><a href="read.html" class="btn btn-success">Read</a></span>
 				</div>
-			</div><!-- /.row -->
+				<div class="browse-book span2">
+					<img src="images/internetsucks.png" alt="" />
+					<span class="browse-info">
+						<h3>Book Title</h3>
+						<h3>Book Author</h3>
+					</span>
+					<span class="browse-actions"><a href="" class="btn btn-danger">More Info</a><a href="read.html" class="btn btn-success">Read</a></span>
+				</div>
+				<div class="browse-book span2">
+					<img src="images/internetsucks.png" alt="" />
+					<span class="browse-info">
+						<h3>Book Title</h3>
+						<h3>Book Author</h3>
+					</span>
+					<span class="browse-actions"><a href="" class="btn btn-danger">More Info</a><a href="read.html" class="btn btn-success">Read</a></span>
+				</div>
+				<div class="browse-book span2">
+					<img src="images/internetsucks.png" alt="" />
+					<span class="browse-info">
+						<h3>Book Title</h3>
+						<h3>Book Author</h3>
+					</span>
+					<span class="browse-actions"><a href="" class="btn btn-danger">More Info</a><a href="read.html" class="btn btn-success">Read</a></span>
+				</div>
+				<div class="browse-book span2">
+					<img src="images/internetsucks.png" alt="" />
+					<span class="browse-info">
+						<h3>Book Title</h3>
+						<h3>Book Author</h3>
+					</span>
+					<span class="browse-actions"><a href="" class="btn btn-danger">More Info</a><a href="read.html" class="btn btn-success">Read</a></span>
+				</div>
+				<div class="browse-book span2">
+					<img src="images/internetsucks.png" alt="" />
+					<span class="browse-info">
+						<h3>Book Title</h3>
+						<h3>Book Author</h3>
+					</span>
+					<span class="browse-actions"><a href="" class="btn btn-danger">More Info</a><a href="read.html" class="btn btn-success">Read</a></span>
+				</div>
+			</div>
 		</div>
 	</div>
 		
@@ -143,7 +179,8 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
-        
+        <script src="/scripts/main.js"></script>
+
         
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
